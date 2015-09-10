@@ -39,6 +39,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factories\IReceiptFactory.cs" />
+    <Compile Include="Factories\ReceiptFactory.cs" />
+    <Compile Include="Factories\IOrderFactory.cs" />
+    <Compile Include="Factories\OrderFactory.cs" />
+    <Compile Include="Services\DiscountCalculationService.cs" />
+    <Compile Include="Services\IDiscountCalculationService.cs" />
+    <Compile Include="Specification\Discounts\NoDiscountSpecification.cs" />
+    <Compile Include="Specification\Discounts\TenPercentDiscountSpecification.cs" />
+    <Compile Include="Specification\Discounts\TwentyPercentDiscountSpecification.cs" />
+    <Compile Include="Specification\ISpecification.cs" />
+    <Compile Include="Specification\Discounts\DiscountSpecification.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="Bike.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
